@@ -13,6 +13,6 @@ app.get("/", (req, res) => {
   });
 });
 
-app.listen(9000, "localhost", () => {
+app.listen(80, "localhost", () => {
   console.log("Server is running on port 9000");
 });
